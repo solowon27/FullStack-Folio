@@ -11,7 +11,7 @@ const app = express();
 // Configure CORS, bodyParser, and other middleware as needed
 
 const corsOptions = {
-  origin: 'https://fullstack-portfolio-680fb4a78f3d.herokuapp.com',
+  origin: '*',
   optionsSuccessStatus: 200,
 };
 
@@ -22,8 +22,8 @@ app.use(bodyParser.json());
 // Create a Nodemailer transporter
 const transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
-  port: 465,
-  secure: true, // Use TLS
+  port: 587,
+  secure: false, // Use TLS
   requireTLS: true,
   auth: {
     user: process.env.EMAIL_USER,
