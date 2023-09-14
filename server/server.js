@@ -8,7 +8,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
-app.use(express.static(path.join(__dirname, 'client/build')));
 
 // Configure CORS, bodyParser, and other middleware as needed
 
@@ -56,8 +55,11 @@ app.post('/send-email', (req, res) => {
     }
   });
 });
+
+app.use(express.static(path.join(__dirname, 'client/build')));
+
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
 });
 
 // Start the server
