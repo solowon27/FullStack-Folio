@@ -2,11 +2,13 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const path = require('path');
 
 const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 // Configure CORS, bodyParser, and other middleware as needed
 
@@ -53,6 +55,9 @@ app.post('/send-email', (req, res) => {
       res.status(200).json({ success: true, message: 'Email sent successfully' });
     }
   });
+});
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
 // Start the server
