@@ -56,7 +56,7 @@ app.post('/send-email', (req, res) => {
 });
 
 // Start the server
-const port = process.env.PORT || 3003;
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
