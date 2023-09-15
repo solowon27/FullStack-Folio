@@ -12,7 +12,7 @@ const app = express();
 // Configure CORS, bodyParser, and other middleware as needed
 
 const corsOptions = {
-  origin: 'https://fullstack-portfolio-680fb4a78f3d.herokuapp.com',
+  origin: '*',
   optionsSuccessStatus: 200,
 };
 
