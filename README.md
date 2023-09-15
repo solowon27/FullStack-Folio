@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# FullStack-Folio
+FullStackFolio is a showcase of integrated client and server-side development skills. It blends captivating design with robust functionality, offering a diverse collection of projects that demonstrate expertise in both front-end and back-end web development. Explore the fusion of creativity and technical prowess within this dynamic portfolio.
+# Table of Contents
+-[Features](#features)
+-[Getting Started](#GettingStarted)
+-[Usage](#usage)
+-[Deployed Link](#DeployedLink)
+-[Screenshots](#screenshots)
+-[Contributing](#contributing)
+-[License](#license)
+-[Contact](#contact)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- in this portfolio, I have used the following technologies
+- React
+- Node and 
+- Express
 
-## Available Scripts
+```list of components used in this portfolio```
+- header -- this is the main header of the portfolio which includes the navigation bar and an introduction of me and my skills
+- portfolio -- this is the main portfolio page which includes all the projects I have done so far
+- aboutme -- this is the about me page which includes my bio 
+- contact -- this is the contact page which includes my contact information and a contact form which is connected to my email
+- resume -- this is the resume page which includes my resume
+- footer -- this is the footer of the portfolio which includes my name
+- BackToTop -- this is the back to top button which is used to scroll to the top of the page
+- DescriptionTabs -- this is the description tabs which is used to display the description of the projects
+- TechnologiesTable -- this is the technology table which is used to display the technologies used in the projects
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started
+To get started with the app, please follow these instructions:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repository to your local machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```git@github.com:solowon27/FullStack-Folio.git```
 
-### `npm test`
+and then follow instruction in package.json scripts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. use the deployed [link](https://fullstack-portfolio-680fb4a78f3d.herokuapp.com/) 
 
-### `npm run build`
+## Deployed Link
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://blooming-lake-26826-01602545f49f.herokuapp.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![desktop1](/client/Asset/desktop-1.jpg)
+![desktop2](/client/Asset/desktop-2.jpg)
+![desktop3](/client/Asset/desktop-3.jpg)
+![mobile](/client/Asset/mobile.jpg)
 
-### `npm run eject`
+## Contributing
+Contributions are  not welcome since this is a portfolio project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is licensed under the MIT License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For inquiries, suggestions, or feedback, please reach out here [solowon27@hotmail.com] or [https://www.linkedin.com/in/solomon-tegegne-7b347027a/]. Thank you
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
