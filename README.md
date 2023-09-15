@@ -45,10 +45,10 @@ https://blooming-lake-26826-01602545f49f.herokuapp.com/
 
 ## Screenshots
 
-![desktop1](/client/Asset/desktop-1.jpg)
-![desktop2](/client/Asset/desktop-2.jpg)
-![desktop3](/client/Asset/desktop-3.jpg)
-![mobile](/client/Asset/mobile.jpg)
+![desktop1](/Assets/desktop-1.jpg)
+![desktop2](/Assets/desktop-2.jpg)
+![desktop3](/Assets/desktop-3.jpg)
+![mobile](/Assets/mobile.jpg)
 
 ## Contributing
 Contributions are  not welcome since this is a portfolio project.
