@@ -14,7 +14,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch('http://localhost:3003/send-email', {
+    fetch('https://fullstack-portfolio-680fb4a78f3d.herokuapp.com/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
