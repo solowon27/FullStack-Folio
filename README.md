@@ -41,7 +41,7 @@ and then follow instruction in package.json scripts
 
 ## Deployed Link
 
-https://blooming-lake-26826-01602545f49f.herokuapp.com/
+https://fullstack-portfolio-680fb4a78f3d.herokuapp.com/
 
 ## Screenshots
 
